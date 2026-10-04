@@ -1,0 +1,630 @@
+# 100 S&P 500 companies across all 11 GICS sectors
+# Ordered by market cap within each sector
+
+companies:
+
+  # ── INFORMATION TECHNOLOGY (20) ──────────────────
+  - name: Microsoft
+    ticker: MSFT
+    cik: "0000789019"
+    sector: technology
+    sub_sector: software
+
+  - name: Apple
+    ticker: AAPL
+    cik: "0000320193"
+    sector: technology
+    sub_sector: hardware
+
+  - name: NVIDIA
+    ticker: NVDA
+    cik: "0001045810"
+    sector: technology
+    sub_sector: semiconductors
+
+  - name: Alphabet
+    ticker: GOOGL
+    cik: "0001652044"
+    sector: technology
+    sub_sector: internet
+
+  - name: Meta Platforms
+    ticker: META
+    cik: "0001326801"
+    sector: technology
+    sub_sector: internet
+
+  - name: Amazon
+    ticker: AMZN
+    cik: "0001018724"
+    sector: technology
+    sub_sector: ecommerce_cloud
+
+  - name: Broadcom
+    ticker: AVGO
+    cik: "0001730168"
+    sector: technology
+    sub_sector: semiconductors
+
+  - name: AMD
+    ticker: AMD
+    cik: "0000002488"
+    sector: technology
+    sub_sector: semiconductors
+
+  - name: Oracle
+    ticker: ORCL
+    cik: "0001341439"
+    sector: technology
+    sub_sector: software
+
+  - name: Salesforce
+    ticker: CRM
+    cik: "0001108524"
+    sector: technology
+    sub_sector: software
+
+  - name: Adobe
+    ticker: ADBE
+    cik: "0000796343"
+    sector: technology
+    sub_sector: software
+
+  - name: Cisco
+    ticker: CSCO
+    cik: "0000858877"
+    sector: technology
+    sub_sector: networking
+
+  - name: Intel
+    ticker: INTC
+    cik: "0000050863"
+    sector: technology
+    sub_sector: semiconductors
+
+  - name: IBM
+    ticker: IBM
+    cik: "0000051143"
+    sector: technology
+    sub_sector: it_services
+
+  - name: Qualcomm
+    ticker: QCOM
+    cik: "0000804328"
+    sector: technology
+    sub_sector: semiconductors
+
+  - name: Texas Instruments
+    ticker: TXN
+    cik: "0000097476"
+    sector: technology
+    sub_sector: semiconductors
+
+  - name: ServiceNow
+    ticker: NOW
+    cik: "0001373715"
+    sector: technology
+    sub_sector: software
+
+  - name: Intuit
+    ticker: INTU
+    cik: "0000896878"
+    sector: technology
+    sub_sector: software
+
+  - name: Applied Materials
+    ticker: AMAT
+    cik: "0000003153"
+    sector: technology
+    sub_sector: semiconductor_equipment
+
+  - name: Lam Research
+    ticker: LRCX
+    cik: "0000707549"
+    sector: technology
+    sub_sector: semiconductor_equipment
+
+  # ── FINANCIALS (20) ──────────────────────────────
+  - name: JPMorgan Chase
+    ticker: JPM
+    cik: "0000019617"
+    sector: financials
+    sub_sector: banking
+
+  - name: Goldman Sachs
+    ticker: GS
+    cik: "0000886982"
+    sector: financials
+    sub_sector: banking
+
+  - name: Morgan Stanley
+    ticker: MS
+    cik: "0000895421"
+    sector: financials
+    sub_sector: banking
+
+  - name: Bank of America
+    ticker: BAC
+    cik: "0000070858"
+    sector: financials
+    sub_sector: banking
+
+  - name: Wells Fargo
+    ticker: WFC
+    cik: "0000072971"
+    sector: financials
+    sub_sector: banking
+
+  - name: Citigroup
+    ticker: C
+    cik: "0000831001"
+    sector: financials
+    sub_sector: banking
+
+  - name: BNY Mellon
+    ticker: BK
+    cik: "0001390777"
+    sector: financials
+    sub_sector: banking
+
+  - name: American Express
+    ticker: AXP
+    cik: "0000004962"
+    sector: financials
+    sub_sector: payments
+
+  - name: Visa
+    ticker: V
+    cik: "0001403161"
+    sector: financials
+    sub_sector: payments
+
+  - name: Mastercard
+    ticker: MA
+    cik: "0001141391"
+    sector: financials
+    sub_sector: payments
+
+  - name: BlackRock
+    ticker: BLK
+    cik: "0001364742"
+    sector: financials
+    sub_sector: asset_management
+
+  - name: Charles Schwab
+    ticker: SCHW
+    cik: "0000316789"
+    sector: financials
+    sub_sector: brokerage
+
+  - name: CME Group
+    ticker: CME
+    cik: "0001156375"
+    sector: financials
+    sub_sector: exchanges
+
+  - name: Intercontinental Exchange
+    ticker: ICE
+    cik: "0001571949"
+    sector: financials
+    sub_sector: exchanges
+
+  - name: Moody's
+    ticker: MCO
+    cik: "0001059556"
+    sector: financials
+    sub_sector: financial_data
+
+  - name: S&P Global
+    ticker: SPGI
+    cik: "0000064040"
+    sector: financials
+    sub_sector: financial_data
+
+  - name: Chubb
+    ticker: CB
+    cik: "0000896159"
+    sector: financials
+    sub_sector: insurance
+
+  - name: MetLife
+    ticker: MET
+    cik: "0001099219"
+    sector: financials
+    sub_sector: insurance
+
+  - name: Marsh McLennan
+    ticker: MMC
+    cik: "0000062234"
+    sector: financials
+    sub_sector: insurance
+
+  - name: Aon
+    ticker: AON
+    cik: "0000315293"
+    sector: financials
+    sub_sector: insurance
+
+  # ── HEALTHCARE (10) ──────────────────────────────
+  - name: Johnson and Johnson
+    ticker: JNJ
+    cik: "0000200406"
+    sector: healthcare
+    sub_sector: pharma
+
+  - name: UnitedHealth Group
+    ticker: UNH
+    cik: "0000731766"
+    sector: healthcare
+    sub_sector: managed_care
+
+  - name: Pfizer
+    ticker: PFE
+    cik: "0000078003"
+    sector: healthcare
+    sub_sector: pharma
+
+  - name: AbbVie
+    ticker: ABBV
+    cik: "0001551152"
+    sector: healthcare
+    sub_sector: pharma
+
+  - name: Merck
+    ticker: MRK
+    cik: "0000310158"
+    sector: healthcare
+    sub_sector: pharma
+
+  - name: Abbott Laboratories
+    ticker: ABT
+    cik: "0000001800"
+    sector: healthcare
+    sub_sector: medical_devices
+
+  - name: Thermo Fisher Scientific
+    ticker: TMO
+    cik: "0000097745"
+    sector: healthcare
+    sub_sector: life_sciences
+
+  - name: Danaher
+    ticker: DHR
+    cik: "0000313616"
+    sector: healthcare
+    sub_sector: life_sciences
+
+  - name: Bristol-Myers Squibb
+    ticker: BMY
+    cik: "0000014272"
+    sector: healthcare
+    sub_sector: pharma
+
+  - name: Amgen
+    ticker: AMGN
+    cik: "0000318154"
+    sector: healthcare
+    sub_sector: biotech
+
+  # ── ENERGY (10) ──────────────────────────────────
+  - name: ExxonMobil
+    ticker: XOM
+    cik: "0000034088"
+    sector: energy
+    sub_sector: integrated_oil
+
+  - name: Chevron
+    ticker: CVX
+    cik: "0000093410"
+    sector: energy
+    sub_sector: integrated_oil
+
+  - name: ConocoPhillips
+    ticker: COP
+    cik: "0001163165"
+    sector: energy
+    sub_sector: exploration
+
+  - name: EOG Resources
+    ticker: EOG
+    cik: "0000821189"
+    sector: energy
+    sub_sector: exploration
+
+  - name: Schlumberger
+    ticker: SLB
+    cik: "0000087347"
+    sector: energy
+    sub_sector: oilfield_services
+
+  - name: Marathon Petroleum
+    ticker: MPC
+    cik: "0001510295"
+    sector: energy
+    sub_sector: refining
+
+  - name: Phillips 66
+    ticker: PSX
+    cik: "0001534992"
+    sector: energy
+    sub_sector: refining
+
+  - name: Valero Energy
+    ticker: VLO
+    cik: "0001035002"
+    sector: energy
+    sub_sector: refining
+
+  - name: Occidental Petroleum
+    ticker: OXY
+    cik: "0000797468"
+    sector: energy
+    sub_sector: exploration
+
+  - name: Kinder Morgan
+    ticker: KMI
+    cik: "0001110805"
+    sector: energy
+    sub_sector: pipelines
+
+  # ── CONSUMER DISCRETIONARY (10) ──────────────────
+  - name: Tesla
+    ticker: TSLA
+    cik: "0001318605"
+    sector: consumer_discretionary
+    sub_sector: automotive
+
+  - name: Home Depot
+    ticker: HD
+    cik: "0000354950"
+    sector: consumer_discretionary
+    sub_sector: retail
+
+  - name: McDonald's
+    ticker: MCD
+    cik: "0000063908"
+    sector: consumer_discretionary
+    sub_sector: restaurants
+
+  - name: Nike
+    ticker: NKE
+    cik: "0000320187"
+    sector: consumer_discretionary
+    sub_sector: apparel
+
+  - name: Starbucks
+    ticker: SBUX
+    cik: "0000829224"
+    sector: consumer_discretionary
+    sub_sector: restaurants
+
+  - name: TJX Companies
+    ticker: TJX
+    cik: "0000109198"
+    sector: consumer_discretionary
+    sub_sector: retail
+
+  - name: Lowe's
+    ticker: LOW
+    cik: "0000060667"
+    sector: consumer_discretionary
+    sub_sector: retail
+
+  - name: Booking Holdings
+    ticker: BKNG
+    cik: "0001075531"
+    sector: consumer_discretionary
+    sub_sector: travel
+
+  - name: General Motors
+    ticker: GM
+    cik: "0001467858"
+    sector: consumer_discretionary
+    sub_sector: automotive
+
+  - name: Ford Motor
+    ticker: F
+    cik: "0000037996"
+    sector: consumer_discretionary
+    sub_sector: automotive
+
+  # ── INDUSTRIALS (8) ──────────────────────────────
+  - name: Boeing
+    ticker: BA
+    cik: "0000012927"
+    sector: industrials
+    sub_sector: aerospace
+
+  - name: Caterpillar
+    ticker: CAT
+    cik: "0000018230"
+    sector: industrials
+    sub_sector: machinery
+
+  - name: Deere and Company
+    ticker: DE
+    cik: "0000315189"
+    sector: industrials
+    sub_sector: machinery
+
+  - name: Honeywell
+    ticker: HON
+    cik: "0000773840"
+    sector: industrials
+    sub_sector: conglomerate
+
+  - name: United Parcel Service
+    ticker: UPS
+    cik: "0001090727"
+    sector: industrials
+    sub_sector: logistics
+
+  - name: Raytheon Technologies
+    ticker: RTX
+    cik: "0000101830"
+    sector: industrials
+    sub_sector: defense
+
+  - name: General Electric
+    ticker: GE
+    cik: "0000040554"
+    sector: industrials
+    sub_sector: conglomerate
+
+  - name: Lockheed Martin
+    ticker: LMT
+    cik: "0000936468"
+    sector: industrials
+    sub_sector: defense
+
+  # ── COMMUNICATION SERVICES (8) ───────────────────
+  - name: Netflix
+    ticker: NFLX
+    cik: "0001065280"
+    sector: communication_services
+    sub_sector: streaming
+
+  - name: Walt Disney
+    ticker: DIS
+    cik: "0001001039"
+    sector: communication_services
+    sub_sector: media
+
+  - name: AT&T
+    ticker: T
+    cik: "0000732717"
+    sector: communication_services
+    sub_sector: telecom
+
+  - name: Verizon
+    ticker: VZ
+    cik: "0000732712"
+    sector: communication_services
+    sub_sector: telecom
+
+  - name: Comcast
+    ticker: CMCSA
+    cik: "0001166691"
+    sector: communication_services
+    sub_sector: media
+
+  - name: T-Mobile
+    ticker: TMUS
+    cik: "0001283699"
+    sector: communication_services
+    sub_sector: telecom
+
+  - name: Spotify
+    ticker: SPOT
+    cik: "0001639920"
+    sector: communication_services
+    sub_sector: streaming
+
+  - name: Warner Bros Discovery
+    ticker: WBD
+    cik: "0001437107"
+    sector: communication_services
+    sub_sector: media
+
+  # ── CONSUMER STAPLES (5) ─────────────────────────
+  - name: Walmart
+    ticker: WMT
+    cik: "0000104169"
+    sector: consumer_staples
+    sub_sector: retail
+
+  - name: Procter and Gamble
+    ticker: PG
+    cik: "0000080424"
+    sector: consumer_staples
+    sub_sector: household_products
+
+  - name: Coca-Cola
+    ticker: KO
+    cik: "0000021344"
+    sector: consumer_staples
+    sub_sector: beverages
+
+  - name: PepsiCo
+    ticker: PEP
+    cik: "0000077476"
+    sector: consumer_staples
+    sub_sector: beverages
+
+  - name: Costco
+    ticker: COST
+    cik: "0000909832"
+    sector: consumer_staples
+    sub_sector: retail
+
+  # ── MATERIALS (3) ────────────────────────────────
+  - name: Linde
+    ticker: LIN
+    cik: "0001707092"
+    sector: materials
+    sub_sector: chemicals
+
+  - name: Air Products
+    ticker: APD
+    cik: "0000002969"
+    sector: materials
+    sub_sector: chemicals
+
+  - name: Newmont
+    ticker: NEM
+    cik: "0001164180"
+    sector: materials
+    sub_sector: mining
+
+  # ── UTILITIES (3) ────────────────────────────────
+  - name: NextEra Energy
+    ticker: NEE
+    cik: "0000753308"
+    sector: utilities
+    sub_sector: electric
+
+  - name: Duke Energy
+    ticker: DUK
+    cik: "0001326160"
+    sector: utilities
+    sub_sector: electric
+
+  - name: Southern Company
+    ticker: SO
+    cik: "0000092122"
+    sector: utilities
+    sub_sector: electric
+
+  # ── REAL ESTATE (3) ──────────────────────────────
+  - name: American Tower
+    ticker: AMT
+    cik: "0001053507"
+    sector: real_estate
+    sub_sector: cell_towers
+
+  - name: Prologis
+    ticker: PLD
+    cik: "0001045609"
+    sector: real_estate
+    sub_sector: industrial_reit
+
+  - name: Equinix
+    ticker: EQIX
+    cik: "0001101239"
+    sector: real_estate
+    sub_sector: data_center_reit
+
+# Filing configuration
+filing_types:
+  - 10-K
+  - 10-Q
+
+years:
+  start: 2022
+  end: 2025
+
+download:
+  delay_seconds: 0.5
+  max_retries: 3
+  timeout_seconds: 30
+  user_agent: "Research Project researcher@project.com"
