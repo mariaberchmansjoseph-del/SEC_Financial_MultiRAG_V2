@@ -89,7 +89,7 @@ AI_RISK: [AI related risks or NONE]"""
         response = self.call_llm(
             user_message = prompt,
             temperature  = 0.0,
-            max_tokens   = 800,
+            max_tokens   = 1200,
         )
 
         if not response:

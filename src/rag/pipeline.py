@@ -4,11 +4,16 @@ src/rag/pipeline.py
 """
 
 import sys
+import time
 sys.path.insert(0, '.')
 from src.agents.orchestrator import Orchestrator
 
 
 class SECRagPipeline:
+    """
+    End-to-end RAG pipeline.
+    Thin wrapper around the Orchestrator.
+    """
 
     def __init__(self):
         self.orchestrator = Orchestrator()
@@ -21,6 +26,7 @@ class SECRagPipeline:
         year:     str = None,
         top_k:    int = 5
     ) -> dict:
+        """Ask a question and get a structured response."""
         return self.orchestrator.run(
             question = question,
             ticker   = ticker,
@@ -30,6 +36,7 @@ class SECRagPipeline:
         )
 
     def print_answer(self, result: dict):
+        """Pretty print a result."""
         self.orchestrator.print_result(result)
 
 
@@ -50,7 +57,7 @@ if __name__ == "__main__":
             "ticker": "JPM"
         },
         {
-            "q":      "Compare ExxonMobil and Chevron oil strategy",
+            "q":      "Compare ExxonMobil and Chevron strategy",
             "ticker": None
         },
     ]
@@ -62,3 +69,4 @@ if __name__ == "__main__":
         )
         pipeline.print_answer(result)
         print()
+        time.sleep(5)
